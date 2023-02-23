@@ -730,10 +730,10 @@
     ajv-formats "2.1.1"
     tslib "2.4.0"
 
-"@tsed/cli-core@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@tsed/cli-core/-/cli-core-4.3.0.tgz#052a582e0e73b4be826e32311eb4363c88f7770b"
-  integrity sha512-J9gUWxW/6grA8fkrAxJRSlIVqnl2YuNwf2KfBmaagcexMWHb8W9SrEQrduv7QSQpOY90x1PyxhVzfv/M4stYoA==
+"@tsed/cli-core@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@tsed/cli-core/-/cli-core-4.4.1.tgz#7960b8a45dd4c5b0504562d43f519fbebc5709ea"
+  integrity sha512-LA74V31NPTRGraMgP5y5R4bGrC3a+/cLlPjb7uytOmswtE24mTHafRj2JA9+PsrJH3woV7TomOfhxt1z3qJxkg==
   dependencies:
     "@npmcli/run-script" "3.0.1"
     "@tsed/logger" ">=6.1.1"
@@ -771,34 +771,34 @@
     update-notifier "5.1.0"
     url-parse "1.5.10"
 
-"@tsed/cli-generate-swagger@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@tsed/cli-generate-swagger/-/cli-generate-swagger-4.3.0.tgz#cb08102112988c4d0e1c29b745c417af768c44d9"
-  integrity sha512-Vhf1QZx270ad3oy3nluh2GGrjeUXA/DFFD7UK8e+L0464ZgJj8BAlKcBSdIHLKvAoTRiMSXP8YuzBby0GkNmVQ==
+"@tsed/cli-generate-swagger@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@tsed/cli-generate-swagger/-/cli-generate-swagger-4.4.1.tgz#7338a27f4cae2cdbaaf6a34eebf6afa06a51e3a2"
+  integrity sha512-6C7RzVNLEjKPfNDVuc2EODv8G28rdNeBegSjhzPH6nBw3sm3uH5Vo+Sm+I71AXvomgNqm77n0ZGE3v3H1q+cPg==
   dependencies:
     change-case "4.1.2"
     tslib "2.3.1"
 
-"@tsed/cli-plugin-eslint@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@tsed/cli-plugin-eslint/-/cli-plugin-eslint-4.3.0.tgz#7d608adf7d2474878f8b4a52ef55284508130407"
-  integrity sha512-BakDz7ocwub4RU7COAORWjUrdRYzTw52jofdRMuli5dp8YB5VkSL3q0pJDvi77ENsCvji0Yz+ElIdzBRBN1F0Q==
+"@tsed/cli-plugin-eslint@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@tsed/cli-plugin-eslint/-/cli-plugin-eslint-4.4.1.tgz#aea6de82e1bf128555af6985e59a5b44f8ee36ff"
+  integrity sha512-ddFQ74RiinyRx6JnAOlYnvCnu475FDNxcDL8Sq74cF0J0lK3wS3jkpBu3zS0UtFjcI8MXR4aZp4lyZHxP1Gaqg==
   dependencies:
     tslib "2.3.1"
 
-"@tsed/cli-plugin-jest@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@tsed/cli-plugin-jest/-/cli-plugin-jest-4.3.0.tgz#9cceaefb74e704a5257dca0e932d2a7c73f710a3"
-  integrity sha512-pOgYk/1RwoLti7s0cvUG2P7ulhzslNb8rM94OI4SpVEsTEOg55nWSwb0f0ZNKk5W5cgS3kjdLoe/B42PIpM1pw==
+"@tsed/cli-plugin-jest@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@tsed/cli-plugin-jest/-/cli-plugin-jest-4.4.1.tgz#d06e2aaa426f43eb514cfe0ce2e10f67c8cf43c6"
+  integrity sha512-JwOC9wOe63xhg5zCw14S4JwXbZOLZkGj0ovXh6v+FaqAJVRLZmkfjA89/lSoJpTaPhBPH0chYdW3lG0CP890pg==
   dependencies:
     tslib "2.3.1"
 
-"@tsed/cli@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@tsed/cli/-/cli-4.3.0.tgz#039b168d1c0f380fd31f8236884cf1a11808e9c6"
-  integrity sha512-7+XZXoIz7CCaeC+AJijVekDrCBtpR0A8paHMdalBZpjvx2bGYfKiLs9x+jKSI7pIt4xCbLNIRuQgBcVb+296JA==
+"@tsed/cli@4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@tsed/cli/-/cli-4.4.1.tgz#13d9279cad909d263a657a7c7bd437dfcb19aeae"
+  integrity sha512-EF8/+ZFbO8hHAPl9KUUN98X1lmu5c3BNSzFSKi4gxeNVMIRq82jYNP6V6RKq5lOWmZ6vBl0AAstWdMHM9uiyCA==
   dependencies:
-    "@tsed/cli-core" "4.3.0"
+    "@tsed/cli-core" "4.4.1"
     "@tsed/core" ">=7.14.2"
     "@tsed/di" ">=7.14.2"
     "@tsed/logger" ">=6.2.1"

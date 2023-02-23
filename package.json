@@ -18,9 +18,9 @@
   },
   "dependencies": {
     "@tsed/ajv": "^7.14.2",
-    "@tsed/cli": "4.3.0",
-    "@tsed/cli-core": "4.3.0",
-    "@tsed/cli-generate-swagger": "4.3.0",
+    "@tsed/cli": "4.4.1",
+    "@tsed/cli-core": "4.4.1",
+    "@tsed/cli-generate-swagger": "4.4.1",
     "@tsed/common": "^7.14.2",
     "@tsed/core": "^7.14.2",
     "@tsed/di": "^7.14.2",
@@ -55,8 +55,8 @@
     "swagger-typescript-api": "^9.3.1"
   },
   "devDependencies": {
-    "@tsed/cli-plugin-eslint": "4.3.0",
-    "@tsed/cli-plugin-jest": "4.3.0",
+    "@tsed/cli-plugin-eslint": "4.4.1",
+    "@tsed/cli-plugin-jest": "4.4.1",
     "@types/compression": "^1.7.2",
     "@types/cookie-parser": "^1.4.3",
     "@types/cors": "^2.8.13",
