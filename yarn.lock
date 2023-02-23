@@ -730,14 +730,14 @@
     ajv-formats "2.1.1"
     tslib "2.4.0"
 
-"@tsed/cli-core@4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@tsed/cli-core/-/cli-core-4.2.9.tgz#d2badda21367c9d6018889a4ac8b9757e23054c9"
-  integrity sha512-Djqjj9m9NJEwJbl8+gzu6tLV36FldeoW8GVtvAOGPfdti/IdE8tSfsLyrLBaq7jjmaY+Y/ECmXi9H3tgXc7OFQ==
+"@tsed/cli-core@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@tsed/cli-core/-/cli-core-4.3.0.tgz#052a582e0e73b4be826e32311eb4363c88f7770b"
+  integrity sha512-J9gUWxW/6grA8fkrAxJRSlIVqnl2YuNwf2KfBmaagcexMWHb8W9SrEQrduv7QSQpOY90x1PyxhVzfv/M4stYoA==
   dependencies:
     "@npmcli/run-script" "3.0.1"
     "@tsed/logger" ">=6.1.1"
-    "@tsed/normalize-path" ">=7.10.0-rc.7"
+    "@tsed/normalize-path" ">=7.14.2"
     "@types/fs-extra" "^9.0.13"
     "@types/inquirer" "^8.2.4"
     ajv "8.11.0"
@@ -771,39 +771,39 @@
     update-notifier "5.1.0"
     url-parse "1.5.10"
 
-"@tsed/cli-generate-http-client@4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@tsed/cli-generate-http-client/-/cli-generate-http-client-4.2.9.tgz#975efb9500302e75f0dd5e0166af4da0215f3639"
-  integrity sha512-C1a5vH/XoaYY+QWKvX5+6ISh/UaIYRRz008K0f4K5zoyYVPMB0wVq0QLqnPzL/Kzj0OyWai/kKUjSsKf+r1n8w==
+"@tsed/cli-generate-swagger@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@tsed/cli-generate-swagger/-/cli-generate-swagger-4.3.0.tgz#cb08102112988c4d0e1c29b745c417af768c44d9"
+  integrity sha512-Vhf1QZx270ad3oy3nluh2GGrjeUXA/DFFD7UK8e+L0464ZgJj8BAlKcBSdIHLKvAoTRiMSXP8YuzBby0GkNmVQ==
   dependencies:
     change-case "4.1.2"
     tslib "2.3.1"
 
-"@tsed/cli-plugin-eslint@4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@tsed/cli-plugin-eslint/-/cli-plugin-eslint-4.2.9.tgz#a4578509b2af74396785e1f5b6bb45b7b607e998"
-  integrity sha512-1tk17tsK4HEk9t7f6xm1yGJMb1JblFD75LYPW0TYvLQMAAinxiCeTihNsmoBalMEtYOMVuoQgEqsw1aisulFMw==
+"@tsed/cli-plugin-eslint@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@tsed/cli-plugin-eslint/-/cli-plugin-eslint-4.3.0.tgz#7d608adf7d2474878f8b4a52ef55284508130407"
+  integrity sha512-BakDz7ocwub4RU7COAORWjUrdRYzTw52jofdRMuli5dp8YB5VkSL3q0pJDvi77ENsCvji0Yz+ElIdzBRBN1F0Q==
   dependencies:
     tslib "2.3.1"
 
-"@tsed/cli-plugin-jest@4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@tsed/cli-plugin-jest/-/cli-plugin-jest-4.2.9.tgz#99a8b44b0be0b8b4d3aad3e4a93d340218e46b9a"
-  integrity sha512-xDIrmYkemYhZ2w3FCdazgp3cDs9RKYApQNXZoCwRZr3L1m/r1Bo2vFPvvK18+xshrN+vVnx1d0isq5JlJyyOkQ==
+"@tsed/cli-plugin-jest@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@tsed/cli-plugin-jest/-/cli-plugin-jest-4.3.0.tgz#9cceaefb74e704a5257dca0e932d2a7c73f710a3"
+  integrity sha512-pOgYk/1RwoLti7s0cvUG2P7ulhzslNb8rM94OI4SpVEsTEOg55nWSwb0f0ZNKk5W5cgS3kjdLoe/B42PIpM1pw==
   dependencies:
     tslib "2.3.1"
 
-"@tsed/cli@4.2.9":
-  version "4.2.9"
-  resolved "https://registry.yarnpkg.com/@tsed/cli/-/cli-4.2.9.tgz#fb01f33e435fb8a6c1574b5e49d1dfc24925c363"
-  integrity sha512-MUb4hJABlfRnOdoQMTpKPcguns0aRB48YwhhqfW0oizKnijOdBuFWZJdMleJ3MSl5I2b1Hb8O8ATOJVuuU+BOw==
+"@tsed/cli@4.3.0":
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/@tsed/cli/-/cli-4.3.0.tgz#039b168d1c0f380fd31f8236884cf1a11808e9c6"
+  integrity sha512-7+XZXoIz7CCaeC+AJijVekDrCBtpR0A8paHMdalBZpjvx2bGYfKiLs9x+jKSI7pIt4xCbLNIRuQgBcVb+296JA==
   dependencies:
-    "@tsed/cli-core" "4.2.9"
-    "@tsed/core" ">=7.10.0-rc.7"
-    "@tsed/di" ">=7.10.0-rc.7"
+    "@tsed/cli-core" "4.3.0"
+    "@tsed/core" ">=7.14.2"
+    "@tsed/di" ">=7.14.2"
     "@tsed/logger" ">=6.2.1"
-    "@tsed/openspec" ">=7.10.0-rc.7"
-    "@tsed/schema" ">=7.10.0-rc.7"
+    "@tsed/openspec" ">=7.14.2"
+    "@tsed/schema" ">=7.14.2"
     chalk "4.1.2"
     change-case "4.1.2"
     filedirname "2.7.0"
@@ -839,17 +839,17 @@
     tslib "2.4.0"
     uuid "8.3.2"
 
-"@tsed/core@7.14.2", "@tsed/core@>=7.10.0-rc.7", "@tsed/core@^7.14.2":
+"@tsed/core@7.14.2", "@tsed/core@>=7.14.2", "@tsed/core@^7.14.2":
   version "7.14.2"
-  resolved "https://registry.npmjs.org/@tsed/core/-/core-7.14.2.tgz"
+  resolved "https://registry.yarnpkg.com/@tsed/core/-/core-7.14.2.tgz#28876f996651dc3680deb9a80f5be88493cb0301"
   integrity sha512-qbarIBUfGO8pKzs2IAZ25O4t6vxVHKlphvjAM88IM2dbDNqKDlHY+kTa1TXFovTzYH2zUugYDUJY30mu5whYXw==
   dependencies:
     reflect-metadata "^0.1.13"
     tslib "2.4.0"
 
-"@tsed/di@7.14.2", "@tsed/di@>=7.10.0-rc.7", "@tsed/di@^7.14.2":
+"@tsed/di@7.14.2", "@tsed/di@>=7.14.2", "@tsed/di@^7.14.2":
   version "7.14.2"
-  resolved "https://registry.npmjs.org/@tsed/di/-/di-7.14.2.tgz"
+  resolved "https://registry.yarnpkg.com/@tsed/di/-/di-7.14.2.tgz#91ee568ac02711586439a693cfbd889a032a8428"
   integrity sha512-bvFbwHBgl9itdEjt8lNknNFj488pU2u0jWjgB6x5q7kMgiD91AsEC784GkjJH1YOrgiWwQleG/k2BAHhWDZGXg==
   dependencies:
     tslib "2.4.0"
@@ -896,17 +896,17 @@
     semver "^7.3.5"
     tslib "2.3.1"
 
-"@tsed/normalize-path@7.14.2", "@tsed/normalize-path@>=7.10.0-rc.7":
+"@tsed/normalize-path@7.14.2", "@tsed/normalize-path@>=7.14.2":
   version "7.14.2"
-  resolved "https://registry.npmjs.org/@tsed/normalize-path/-/normalize-path-7.14.2.tgz"
+  resolved "https://registry.yarnpkg.com/@tsed/normalize-path/-/normalize-path-7.14.2.tgz#0654fdf56e2b211cc8f31f104890ffc6275bc0be"
   integrity sha512-DYeC+CxHJaISOEfGbgcRwMhszev30tEhh+mRN051UgLllAUiGz/7eXyH4gY6BNwZPNuoPVvhIrUz+L5VpDp99g==
   dependencies:
     normalize-path "3.0.0"
     tslib "2.4.0"
 
-"@tsed/openspec@7.14.2", "@tsed/openspec@>=7.10.0-rc.7", "@tsed/openspec@^7.14.2":
+"@tsed/openspec@7.14.2", "@tsed/openspec@>=7.14.2", "@tsed/openspec@^7.14.2":
   version "7.14.2"
-  resolved "https://registry.npmjs.org/@tsed/openspec/-/openspec-7.14.2.tgz"
+  resolved "https://registry.yarnpkg.com/@tsed/openspec/-/openspec-7.14.2.tgz#d78c439762e489f5ecb669464981aa53edf3bef9"
   integrity sha512-P8sAxyAZAaqS71sIevRw2yaeJyisyITeEeyOp0QVGwzjZRAvk+ZoyywivURpK0sa8CMw3v5arpgg3HP6mgVIoQ==
 
 "@tsed/perf@7.14.2":
@@ -987,9 +987,9 @@
     ejs "^3.1.5"
     tslib "2.4.0"
 
-"@tsed/schema@7.14.2", "@tsed/schema@>=7.10.0-rc.7", "@tsed/schema@^7.14.2":
+"@tsed/schema@7.14.2", "@tsed/schema@>=7.14.2":
   version "7.14.2"
-  resolved "https://registry.npmjs.org/@tsed/schema/-/schema-7.14.2.tgz"
+  resolved "https://registry.yarnpkg.com/@tsed/schema/-/schema-7.14.2.tgz#38d59bc414acd701be1772defae1447821c840c0"
   integrity sha512-ZRK26uoVzetiWxSlN+ahgni1VQXjsSHaX1/7UNsjWw+E/a48pAEA/0IaNU0cvdDzzpMKY9GYoQnAIN8jI6cHmQ==
   dependencies:
     "@tsed/openspec" "7.14.2"
